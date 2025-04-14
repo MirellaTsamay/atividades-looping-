@@ -1,1 +1,1 @@
-const 
+const num = parseFloat ()

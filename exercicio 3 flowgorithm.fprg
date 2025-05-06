@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercicio 3 flowgorithm"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-05-06 03:12:29 "/>
+        <attribute name="created" value="QWx1bm87RVNONTEyRDExNTQ5NzY7MjAyNS0wNS0wNjsiMDI6Mjg6MjYgIjsyNTI1"/>
+        <attribute name="edited" value="QWx1bm87RVNONTEyRDExNTQ5NzY7MjAyNS0wNS0wNjsiMDM6MTI6MjkgIjsxOzI2MzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="resultado" type="String" array="False" size=""/>
+            <assign variable="resultado" expression="&quot;&quot;"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um numero para ver a tabuada de 1 a 10&quot;" newline="True"/>
+            <input variable="numero"/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <assign variable="resultado" expression="resultado &amp; numero &amp; &quot;x&quot; &amp;i&amp; &quot;=&quot; &amp; numero * i &amp; &quot;|&quot;"/>
+            </for>
+            <output expression="resultado" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

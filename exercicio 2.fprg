@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercicio 2"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-05-06 03:41:59 "/>
+        <attribute name="created" value="QWx1bm87RVNONTEyRDExNTQ5NzY7MjAyNS0wNS0wNjsiMDM6Mjc6NDggIjsyNTI5"/>
+        <attribute name="edited" value="QWx1bm87RVNONTEyRDExNTQ5NzY7MjAyNS0wNS0wNjsiMDM6NDE6NTkgIjsxOzI2MzU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="soma" type="Integer" array="False" size=""/>
+            <assign variable="soma" expression="0"/>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <output expression="&quot;Coloque o n&#250;mero &quot;&amp;i" newline="True"/>
+                <input variable="numero"/>
+                <assign variable="soma" expression="soma+numero"/>
+                <output expression="&quot;O numero colocado foi &quot; &amp;numero" newline="True"/>
+                <output expression="&quot;A soma dos numeros colocados &#233; &quot; &amp;soma" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

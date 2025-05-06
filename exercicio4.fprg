@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercicio4"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-05-06 04:14:42 "/>
+        <attribute name="created" value="QWx1bm87RVNONTEyRDExNTQ5NzY7MjAyNS0wNS0wNjsiMDM6NDI6MDMgIjsyNTE3"/>
+        <attribute name="edited" value="QWx1bm87RVNONTEyRDExNTQ5NzY7MjAyNS0wNS0wNjsiMDQ6MTQ6NDIgIjsxOzI2Mjg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="soma" type="Integer" array="False" size=""/>
+            <assign variable="soma" expression="0"/>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="media" type="Integer" array="False" size=""/>
+            <declare name="nota" type="Integer" array="False" size=""/>
+            <assign variable="nota" expression="0"/>
+            <for variable="i" start="1" end="5" direction="inc" step="1">
+                <output expression="&quot;Coloque a nota &quot;&amp;i" newline="True"/>
+                <input variable="nota"/>
+                <assign variable="soma" expression="soma+nota"/>
+            </for>
+            <assign variable="media" expression="soma/(i-1)"/>
+            <output expression="&quot;A m&#233;dia das notas que foram colocadas &#233; &quot; &amp;media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

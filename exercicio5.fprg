@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercicio5"/>
+        <attribute name="authors" value="aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-05-13 02:47:55 "/>
+        <attribute name="created" value="YWx1bm87RVNONTEyTjEyNjI4NTQ7MjAyNS0wNS0xMzsiMDE6NDQ6NTMgIjsyNTU3"/>
+        <attribute name="edited" value="YWx1bm87RVNONTEyTjEyNjI4NTQ7MjAyNS0wNS0xMzsiMDI6NDc6NTUgIjsxOzI2NzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero1" type="Integer" array="False" size=""/>
+            <assign variable="numero1" expression="0"/>
+            <declare name="numero2" type="Integer" array="False" size=""/>
+            <assign variable="numero2" expression="0"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o numero 1&quot;" newline="True"/>
+            <input variable="numero1"/>
+            <output expression="&quot;Digite o numero 2&quot;" newline="True"/>
+            <input variable="numero2"/>
+            <for variable="i" start="numero1" end="numero2" direction="inc" step="1">
+                <if expression="i%2==0">
+                    <then>
+                        <output expression="i" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

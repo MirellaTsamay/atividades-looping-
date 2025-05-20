@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let num1 = 0
 let num2 = 0
 let numPares
@@ -19,3 +20,5 @@ if (num1 < num2) {
     alert("Coloque um numero válido");
 
 }
+=======
+>>>>>>> d220f59f11dbf92866ae3d4840da0bcfa722913c

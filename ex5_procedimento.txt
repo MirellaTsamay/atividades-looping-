@@ -1,0 +1,20 @@
+
+5) Peça dois números ao usuário e exiba todos os números pares no intervalo entre eles. Exemplo: O usuário digita 11 e 20, seu programa deve apresentar os números 12, 14, 16, 18 e 20.
+
+
+Escrever passo a passo
+
+1.Digite o primeiro numero
+1.1 Declarar a variavel e pedir pro usuario digitar o primeiro numero 
+1.2 Atribuir a variavel o valor digitado
+1.3 testar o numero digitado 
+
+2.Digite o segundo numero 
+2.1Declarar a variavel e pedir pro usuario digitar o segundo numero
+2.2Atribuir a variavel o valor digitado
+2.3testar o numero digitado 
+
+3. imprimir os valores repetidamente
+3.1 para isso será usado o "for" 
+3.2imprimir os numeros pares a partir do numero 1
+3.3repitir esse processo ate o numero 2

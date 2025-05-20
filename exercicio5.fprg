@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercicio5"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-05-20 03:11:42 "/>
+        <attribute name="created" value="QWx1bm87RVNONTEyRDExNTQ5NzY7MjAyNS0wNS0yMDsiMDI6MjM6MTYgIjsyNTE1"/>
+        <attribute name="edited" value="QWx1bm87RVNONTEyRDExNTQ5NzY7MjAyNS0wNS0yMDsiMDM6MTE6NDIgIjsxOzI2MjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <declare name="num2" type="Integer" array="False" size=""/>
+            <declare name="numPares" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="num1" expression="0"/>
+            <assign variable="num2" expression="0"/>
+            <output expression="&quot;Digite o primeiro numero&quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;Digite o segundo numero&quot;" newline="True"/>
+            <input variable="num2"/>
+            <if expression="num1&lt;num2">
+                <then>
+                    <for variable="i" start="num1" end="num2" direction="inc" step="1">
+                        <if expression="i%2==0">
+                            <then>
+                                <output expression="i &amp; &quot; &quot;" newline="False"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </for>
+                </then>
+                <else>
+                    <output expression="&quot;Coloque um numero valido&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

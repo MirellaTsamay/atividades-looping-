@@ -1,32 +1,21 @@
+let num1 = 0
+let num2 = 0
+let numPares
 
-    const num1 = parseInt(prompt("Coloque o primeiro número:")); //armazenara o numero
+num1 = parseInt(prompt("Digite o primeiro numero"));
+num2 = parseInt(prompt("Digite o segundo numero"));
 
-    const num2 = parseInt(prompt("Coloque o segundo número:"));
+if (num1 < num2) {
+    // se numero 1 for menor que numero 2 executa esse bloco
 
-    if (isNaN(num1) || isNaN(num2)) {
-        alert("Digite um número válido");
-    } else {
-        let NumPares = ""; // Variável para guardar os números pares colocados
-        let inicio, fim;
-
-        if (num1 < num2) {
-            inicio = num1;
-            fim = num2;
-        } else {
-            inicio = num2;
-            fim = num1;
-        }
-
-        for (let i = inicio; i <= fim; i++) { 
-            if (i % 2 === 0) {
-                NumPares += i + " ";
-            }
-        }
-
-        if (NumPares === "") { 
-            alert("Não há números pares no intervalo.");
-        } else {
-            alert(`Números pares no intervalo de ${inicio} até ${fim} : ${NumPares}`); //Exibe os numeros pares que foram encontrados
+    for(let i=num1; i<=num2;i++){
+        // executa o loop do for(para)
+        if (i%2==0){
+            console.log (`${i} `) // se eu fizer isso vai ficar mais fofo, template string
         }
     }
 
+} else { //se o numero 1 for maior que dois, executará este bloco
+    alert("Coloque um numero válido");
+
+}
